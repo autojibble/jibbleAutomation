@@ -26,8 +26,8 @@ from selenium import webdriver
 #         chrome_options.add_argument("--headless=new")
 #         browser = webdriver.chrome(options=chrome_options) 
 #         browser.get('https://www.jibble.io/app/login')
-#         element_email = browser.find_element(By.css_selector, '[data-testid="emailorphone"]').send_keys("bi.scaleupally@gmail.com" + Keys.enter)
-#         element_password = browser.find_element(By.css_selector, '[name="password"]').send_keys("bike3710" + Keys.enter)
+#         element_email = browser.find_element(By.css_selector, '[data-testid="emailorphone"]').send_keys("" + Keys.enter)
+#         element_password = browser.find_element(By.css_selector, '[name="password"]').send_keys("" + Keys.enter)
 #         # print("login successful")
 #         # time.sleep(5)
 #         statement = "login successful"
